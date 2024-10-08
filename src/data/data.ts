@@ -112,9 +112,6 @@ const placeData = {
         },
       ],
     },
-    {
-      
-    },
   ],
 }
 const hotelData = {
