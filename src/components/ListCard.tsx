@@ -1,6 +1,6 @@
 import { View } from 'react-native'
 import React from 'react'
-import { IData } from '@/data/data'
+import { IData } from '@/types/common'
 import Card from './Card'
 
 type Props = {
