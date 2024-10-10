@@ -1,8 +1,8 @@
-# 🌌 **Planetarium App** 
+#  **Hoian Culture** 
 
-<img src="./assets/logo.svg" width="40%" alt='App Logo'>
+<img src="./assets/images/cultural/logo.png" width="20%" alt='App Logo'>
 
-Explore the cosmos like never before! Our **Planetarium App** offers detailed planet information, quizzes to challenge your knowledge, and a fun image puzzle game. Discover the universe, one screen at a time!
+Explore the cosmos like never before! Our **Hoian Culture** is designed to enhance the experience of exploring the rich cultural heritage of Hội An. By providing detailed information on tourist attractions, cultural events, and local activities, the platform serves as a comprehensive guide for visitors. In addition to information dissemination, Hoian Culture assists users in planning their trips by offering personalized tour suggestions, enabling them to fully immerse themselves in the unique traditions and experiences that Hội An has to offer!
 
 ---
 
@@ -19,14 +19,14 @@ Explore the cosmos like never before! Our **Planetarium App** offers detailed pl
 
 ## 🗂 **Table of Contents**
 
-- [🌌 Planetarium App](#)
+- [<img src="./assets/images/cultural/logo.png" width="4%" alt='App Logo'> Hoian Culture](#)
   - [🎬 Demo App](#demo-app)
   - [🗂 Table of Contents](#table-of-contents)
   - [🌍 About](#about)
-  - [🚀 Features](#features)
-      - [🪐 Planet Information](#planet-information)
-      - [🧠 Planetarium Quiz](#Planetarium-quiz)
-      - [🧩 Image Puzzle Game](#image-puzzle-game)
+  - [🎨 Features](#features)
+      - [🏛️ Cultural and Historical Information](#planet-information)
+      - [📅 Tour Planning Assistant](#Planetarium-quiz)
+      - [📍 Event and Location Guide](#image-puzzle-game)
   - [📸 Screenshots](#screenshots)
   - [⚙️ Getting Started](#getting-started)
     - [🛠 Prerequisites](#prerequisites)
@@ -36,26 +36,25 @@ Explore the cosmos like never before! Our **Planetarium App** offers detailed pl
 
 ## 🌍 **About**
 
-Discover the wonders of the universe with our **Planetarium App**! Learn fascinating facts about planets, test your space knowledge with quizzes, and engage in interactive puzzle games to keep you entertained and educated. Whether you're a casual learner or a space enthusiast, this app has something for everyone!
+Explore the rich heritage of Hội An with our **Hoian Culture App**! Discover fascinating informations about the city's historical sites and plan your perfect tour with tailored itineraries. This app serves as your comprehensive guide, helping you navigate the vibrant culture and traditions of this UNESCO World Heritage site. Whether you’re a curious traveler or a culture enthusiast, Hoian Culture offers an enriching experience that brings the beauty and history of Hội An to life!
 
 ---
 
-## 🚀 **Features**
+## 🎨 **Features**
 
-### 🪐 **Planet Information**
+### 🏛️ **Cultural and Historical Information**
 
-- **Detailed Descriptions**: Explore each planet's structure, size, atmosphere, and other unique features.
-- **Stunning Visuals**: Enjoy high-quality images and videos that showcase the beauty of planets.
+- **Detailed Descriptions**: Explore the rich history, architecture, and significance of Hội An’s famous landmarks.
+- **Captivating Visuals**: Enjoy high-quality images that capture the beauty and essence of Hội An's cultural sites.
 
-### 🧠 **Planetarium Quiz**
+### 📅 **Tour Planning Assistant**
 
-- **Challenging Quizzes**: Test your knowledge of the cosmos with questions about planets, stars, and astronomical events.
-- **Random & Topic-Specific Quizzes**: Choose between random questions or focus on specific topics of interest.
+- **Personalized Itineraries**: Get tailored recommendations to help you plan the perfect visit to Hội An’s key attractions.
+- **Time and Interest-Based Suggestions**: Choose your itinerary based on available time or specific cultural interests.
+### 📍 **Event and Location Guide**
 
-### 🧩 **Image Puzzle Game**
+- **Local Event Updates**: Stay informed about upcoming cultural events, festivals, and activities.
 
-- **Engaging Puzzle Challenges**: Solve puzzles featuring cosmic images to sharpen your skills and knowledge of the universe.
-- **Progressive Levels**: Each puzzle gets harder, challenging you to think critically and solve with precision.
 
 ---
 
@@ -85,8 +84,8 @@ Make sure you have these tools installed before starting:
 
 1. **Clone the repository**:
     ```bash
-    git clone git@github.com:HeyHeyHeyHeyHe/app-thienvanhoc-.git
-    cd app-thienvanhoc-
+    git clone git@github.com:NguyenQuocHuy1502/hoian-culture.git
+    cd hoian-culture
     ```
 
 2. **Install dependencies**:
