@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "template-expo-app",
-    "slug": "template-expo-app",
+    "name": "hoian",
+    "slug": "hoian",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "template-app",
@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.manhhdv.templateexpoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +36,14 @@
     "experiments": {
       "typedRoutes": true,
       "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aa3e075b-bda6-4ce4-9fd8-031fc9282322"
+      }
     }
   }
 }

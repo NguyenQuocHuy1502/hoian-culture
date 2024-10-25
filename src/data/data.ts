@@ -329,7 +329,6 @@ const hotelData = {
           title: 'Dịch vụ hỗ trợ',
           content: `Hội An Charm Homestay cung cấp dịch vụ hỗ trợ đặt tour và các hoạt động tham quan, giúp du khách dễ dàng khám phá vẻ đẹp của Hội An.`,
         },
-        
       ],
     },
     {
@@ -357,7 +356,6 @@ const hotelData = {
           title: 'Trải nghiệm độc đáo',
           content: `Allegro Hội An thường tổ chức các sự kiện văn hóa và nghệ thuật, mang đến cho du khách những trải nghiệm phong phú và đáng nhớ trong suốt kỳ nghỉ.`,
         },
-        
       ],
     },
     {
@@ -385,7 +383,6 @@ const hotelData = {
           title: 'Sự bình yên',
           content: `Với không khí yên tĩnh và phong cảnh thiên nhiên tuyệt đẹp, Terracotta Resort là nơi lý tưởng để thư giãn và tái tạo năng lượng trong những ngày nghỉ dưỡng.`,
         },
-        
       ],
     },
     {
@@ -413,7 +410,6 @@ const hotelData = {
           title: 'Trải nghiệm ẩm thực',
           content: `Nhà hàng của Malia phục vụ các món ăn địa phương và quốc tế, mang đến cho du khách những trải nghiệm ẩm thực đa dạng và phong phú trong suốt kỳ nghỉ.`,
         },
-        
       ],
     },
     {
@@ -441,7 +437,6 @@ const hotelData = {
           title: 'Sự yên bình',
           content: `Khách sạn mang lại không gian thư giãn yên bình, lý tưởng cho những ai muốn tránh xa sự ồn ào và nhộn nhịp của phố cổ Hội An.`,
         },
-        
       ],
     },
     {
@@ -469,7 +464,6 @@ const hotelData = {
           title: 'Dịch vụ chuyên nghiệp',
           content: `Đội ngũ nhân viên tại resort luôn sẵn sàng phục vụ và hỗ trợ du khách với sự chu đáo và nhiệt tình, đảm bảo kỳ nghỉ của bạn trở nên trọn vẹn và thoải mái nhất.`,
         },
-        
       ],
     },
   ],
@@ -526,7 +520,8 @@ const cafeData = {
         },
         {
           title: 'Sự kiện văn hóa',
-          content: 'Quán thường xuyên tổ chức các buổi biểu diễn nhạc sống và triển lãm nghệ thuật, mang lại trải nghiệm phong phú cho khách hàng.',
+          content:
+            'Quán thường xuyên tổ chức các buổi biểu diễn nhạc sống và triển lãm nghệ thuật, mang lại trải nghiệm phong phú cho khách hàng.',
         },
         {
           title: 'Dịch vụ tận tâm',
@@ -553,7 +548,8 @@ const cafeData = {
         },
         {
           title: 'Không gian thư giãn',
-          content: 'Café Mộc tạo ra không gian lý tưởng cho việc đọc sách hoặc làm việc, với những góc ngồi yên tĩnh và thoải mái.',
+          content:
+            'Café Mộc tạo ra không gian lý tưởng cho việc đọc sách hoặc làm việc, với những góc ngồi yên tĩnh và thoải mái.',
         },
         {
           title: 'Hỗ trợ cộng đồng',
@@ -580,7 +576,8 @@ const cafeData = {
         },
         {
           title: 'Triển lãm nghệ thuật',
-          content: 'Quán thường xuyên tổ chức các triển lãm nghệ thuật, giới thiệu những tác phẩm của các nghệ sĩ địa phương, giúp khách hàng có thêm trải nghiệm văn hóa.',
+          content:
+            'Quán thường xuyên tổ chức các triển lãm nghệ thuật, giới thiệu những tác phẩm của các nghệ sĩ địa phương, giúp khách hàng có thêm trải nghiệm văn hóa.',
         },
         {
           title: 'Dịch vụ khách hàng tận tình',
@@ -607,7 +604,8 @@ const cafeData = {
         },
         {
           title: 'Buổi biểu diễn nghệ thuật',
-          content: 'Quán thường tổ chức các buổi biểu diễn nhạc sống và các hoạt động văn hóa, tạo không khí vui tươi cho khách hàng.',
+          content:
+            'Quán thường tổ chức các buổi biểu diễn nhạc sống và các hoạt động văn hóa, tạo không khí vui tươi cho khách hàng.',
         },
         {
           title: 'Chương trình khuyến mãi',
@@ -987,7 +985,7 @@ const craftData = {
           content: `Du khách có thể tham quan làng nghề và chứng kiến quy trình điêu khắc đá, từ khâu chọn đá cho đến giai đoạn hoàn thiện, và thậm chí có thể tham gia vào một số hoạt động thực tế.`,
         },
       ],
-    }
+    },
   ],
 }
 const foodData = {
@@ -1027,23 +1025,28 @@ const foodData = {
       image: images.caolau,
       category: ECategory.FOOD,
       title: 'Cao Lầu Ba Bầu',
-      description: 'Cao Lầu là món ăn đặc sản của Hội An với sợi mì dày, mềm, ăn kèm với thịt heo, rau sống và nước sốt đặc trưng.',
+      description:
+        'Cao Lầu là món ăn đặc sản của Hội An với sợi mì dày, mềm, ăn kèm với thịt heo, rau sống và nước sốt đặc trưng.',
       body: [
         {
           title: 'Lịch sử hình thành',
-          content: 'Cao Lầu có nguồn gốc từ thời kỳ giao thương, là sự kết hợp giữa các nền văn hóa ẩm thực khác nhau. Món ăn này đã trở thành biểu tượng ẩm thực của Hội An, hấp dẫn thực khách bởi vẻ ngoài hấp dẫn và hương vị độc đáo. Nhiều du khách đến Hội An không thể bỏ qua món ăn này trong hành trình khám phá ẩm thực địa phương.'
+          content:
+            'Cao Lầu có nguồn gốc từ thời kỳ giao thương, là sự kết hợp giữa các nền văn hóa ẩm thực khác nhau. Món ăn này đã trở thành biểu tượng ẩm thực của Hội An, hấp dẫn thực khách bởi vẻ ngoài hấp dẫn và hương vị độc đáo. Nhiều du khách đến Hội An không thể bỏ qua món ăn này trong hành trình khám phá ẩm thực địa phương.',
         },
         {
           title: 'Thành phần và cách chế biến',
-          content: 'Sợi mì Cao Lầu được làm từ bột gạo, nước tro, và nước mưa, tạo nên hương vị đặc trưng. Món ăn thường kèm với thịt heo nướng, rau sống tươi mát và nước sốt đặc biệt, tạo nên sự hòa quyện tuyệt vời. Đặc biệt, nước sốt được chế biến từ nhiều nguyên liệu phong phú, mang lại một trải nghiệm ẩm thực không thể nào quên.'
+          content:
+            'Sợi mì Cao Lầu được làm từ bột gạo, nước tro, và nước mưa, tạo nên hương vị đặc trưng. Món ăn thường kèm với thịt heo nướng, rau sống tươi mát và nước sốt đặc biệt, tạo nên sự hòa quyện tuyệt vời. Đặc biệt, nước sốt được chế biến từ nhiều nguyên liệu phong phú, mang lại một trải nghiệm ẩm thực không thể nào quên.',
         },
         {
           title: 'Hương vị đặc trưng',
-          content: 'Cao Lầu nổi bật với sợi mì dày, có độ dai vừa phải, kết hợp hoàn hảo với vị ngọt của thịt heo và độ giòn của rau sống. Nước sốt chua ngọt làm cho món ăn trở nên hoàn hảo hơn, giúp thực khách cảm nhận được hương vị đặc sắc của Hội An.'
+          content:
+            'Cao Lầu nổi bật với sợi mì dày, có độ dai vừa phải, kết hợp hoàn hảo với vị ngọt của thịt heo và độ giòn của rau sống. Nước sốt chua ngọt làm cho món ăn trở nên hoàn hảo hơn, giúp thực khách cảm nhận được hương vị đặc sắc của Hội An.',
         },
         {
           title: 'Trải nghiệm thưởng thức',
-          content: 'Thưởng thức Cao Lầu không chỉ đơn thuần là ăn mà còn là một trải nghiệm văn hóa. Du khách thường ngồi tại các quán ăn nhỏ ven đường, hòa mình vào không khí nhộn nhịp của phố cổ khi thưởng thức món ăn này.'
+          content:
+            'Thưởng thức Cao Lầu không chỉ đơn thuần là ăn mà còn là một trải nghiệm văn hóa. Du khách thường ngồi tại các quán ăn nhỏ ven đường, hòa mình vào không khí nhộn nhịp của phố cổ khi thưởng thức món ăn này.',
         },
       ],
     },
@@ -1052,23 +1055,28 @@ const foodData = {
       image: images.miquangot,
       category: ECategory.FOOD,
       title: 'Mì Quảng Ớt',
-      description: 'Mì Quảng nổi tiếng với sợi mì vàng, nước dùng thơm ngon và nhân đa dạng từ tôm, thịt gà, hay thịt heo.',
+      description:
+        'Mì Quảng nổi tiếng với sợi mì vàng, nước dùng thơm ngon và nhân đa dạng từ tôm, thịt gà, hay thịt heo.',
       body: [
         {
           title: 'Lịch sử',
-          content: 'Mì Quảng có nguồn gốc từ miền Trung Việt Nam và mang đậm hương vị của vùng đất Hội An. Đây là món ăn đã tồn tại hàng trăm năm, từng là lựa chọn của người dân nơi đây và dần trở thành một trong những món ăn nổi tiếng nhất khi du khách đến Hội An.'
+          content:
+            'Mì Quảng có nguồn gốc từ miền Trung Việt Nam và mang đậm hương vị của vùng đất Hội An. Đây là món ăn đã tồn tại hàng trăm năm, từng là lựa chọn của người dân nơi đây và dần trở thành một trong những món ăn nổi tiếng nhất khi du khách đến Hội An.',
         },
         {
           title: 'Thành phần và cách chế biến',
-          content: 'Mì Quảng được làm từ bột gạo, có màu vàng tự nhiên nhờ nghệ. Nước dùng từ xương heo hoặc gà thơm ngon, kèm theo nhiều loại thịt và rau sống tạo nên sự đa dạng cho món ăn. Đặc biệt, món ăn thường được trang trí với lạc rang và hành phi, tạo thêm độ giòn và hương vị đặc trưng.'
+          content:
+            'Mì Quảng được làm từ bột gạo, có màu vàng tự nhiên nhờ nghệ. Nước dùng từ xương heo hoặc gà thơm ngon, kèm theo nhiều loại thịt và rau sống tạo nên sự đa dạng cho món ăn. Đặc biệt, món ăn thường được trang trí với lạc rang và hành phi, tạo thêm độ giòn và hương vị đặc trưng.',
         },
         {
           title: 'Hương vị thơm ngon',
-          content: 'Mì Quảng có hương vị thơm ngon và hấp dẫn, nhờ vào sự kết hợp hoàn hảo giữa nước dùng và các nguyên liệu tươi ngon. Sự kết hợp này tạo ra một trải nghiệm ẩm thực phong phú và đậm đà.'
+          content:
+            'Mì Quảng có hương vị thơm ngon và hấp dẫn, nhờ vào sự kết hợp hoàn hảo giữa nước dùng và các nguyên liệu tươi ngon. Sự kết hợp này tạo ra một trải nghiệm ẩm thực phong phú và đậm đà.',
         },
         {
           title: 'Trải nghiệm ẩm thực',
-          content: 'Khi thưởng thức Mì Quảng, du khách không chỉ được trải nghiệm hương vị mà còn có cơ hội hiểu rõ hơn về văn hóa ẩm thực của người dân miền Trung. Mì Quảng thường được ăn kèm với rau sống tươi ngon, tạo nên sự hài hòa trong từng miếng ăn.'
+          content:
+            'Khi thưởng thức Mì Quảng, du khách không chỉ được trải nghiệm hương vị mà còn có cơ hội hiểu rõ hơn về văn hóa ẩm thực của người dân miền Trung. Mì Quảng thường được ăn kèm với rau sống tươi ngon, tạo nên sự hài hòa trong từng miếng ăn.',
         },
       ],
     },
@@ -1077,23 +1085,28 @@ const foodData = {
       image: images.banhxeo,
       category: ECategory.FOOD,
       title: 'Bánh Xèo Hội An',
-      description: 'Bánh xèo là món bánh truyền thống được làm từ bột gạo, chiên giòn và nhân tôm, thịt cùng với rau sống.',
+      description:
+        'Bánh xèo là món bánh truyền thống được làm từ bột gạo, chiên giòn và nhân tôm, thịt cùng với rau sống.',
       body: [
         {
           title: 'Lịch sử',
-          content: 'Bánh xèo đã xuất hiện từ lâu trong ẩm thực miền Trung, đặc biệt là tại Hội An. Món ăn này không chỉ đơn thuần là thức ăn, mà còn phản ánh sự khéo léo và sáng tạo của người dân nơi đây trong việc kết hợp nguyên liệu tự nhiên.'
+          content:
+            'Bánh xèo đã xuất hiện từ lâu trong ẩm thực miền Trung, đặc biệt là tại Hội An. Món ăn này không chỉ đơn thuần là thức ăn, mà còn phản ánh sự khéo léo và sáng tạo của người dân nơi đây trong việc kết hợp nguyên liệu tự nhiên.',
         },
         {
           title: 'Thành phần và cách chế biến',
-          content: 'Bánh được làm từ bột gạo, nước dừa, và nhân từ tôm tươi, thịt heo, ăn kèm với rau sống và nước chấm. Bánh xèo khi được chiên giòn, có hình dáng giống như chiếc nón lá Việt Nam, mang đến không chỉ hương vị ngon mà còn là một trải nghiệm thị giác thú vị.'
+          content:
+            'Bánh được làm từ bột gạo, nước dừa, và nhân từ tôm tươi, thịt heo, ăn kèm với rau sống và nước chấm. Bánh xèo khi được chiên giòn, có hình dáng giống như chiếc nón lá Việt Nam, mang đến không chỉ hương vị ngon mà còn là một trải nghiệm thị giác thú vị.',
         },
         {
           title: 'Hương vị hấp dẫn',
-          content: 'Bánh xèo nổi bật với độ giòn bên ngoài và nhân bên trong đầy đặn. Món ăn này không chỉ ngon mà còn có màu sắc bắt mắt, thu hút thực khách ngay từ cái nhìn đầu tiên.'
+          content:
+            'Bánh xèo nổi bật với độ giòn bên ngoài và nhân bên trong đầy đặn. Món ăn này không chỉ ngon mà còn có màu sắc bắt mắt, thu hút thực khách ngay từ cái nhìn đầu tiên.',
         },
         {
           title: 'Trải nghiệm thưởng thức',
-          content: 'Khi thưởng thức Bánh Xèo, du khách thường cuốn bánh trong lá rau sống và chấm nước mắm chua ngọt, tạo nên một trải nghiệm ẩm thực tuyệt vời và khó quên.'
+          content:
+            'Khi thưởng thức Bánh Xèo, du khách thường cuốn bánh trong lá rau sống và chấm nước mắm chua ngọt, tạo nên một trải nghiệm ẩm thực tuyệt vời và khó quên.',
         },
       ],
     },
@@ -1102,23 +1115,28 @@ const foodData = {
       image: images.chehue,
       category: ECategory.FOOD,
       title: 'Chè Hội An',
-      description: 'Chè Hội An nổi tiếng với nhiều loại chè đa dạng và hương vị thơm ngon, được phục vụ tại nhiều quán ăn ở Hội An.',
+      description:
+        'Chè Hội An nổi tiếng với nhiều loại chè đa dạng và hương vị thơm ngon, được phục vụ tại nhiều quán ăn ở Hội An.',
       body: [
         {
           title: 'Lịch sử',
-          content: 'Chè Hội An có nguồn gốc từ cố đô, đã từ lâu trở thành một phần không thể thiếu trong ẩm thực Hội An. Sự kết hợp giữa các nguyên liệu tự nhiên đã tạo ra những món chè độc đáo, mang đậm phong cách của miền Trung Việt Nam.'
+          content:
+            'Chè Hội An có nguồn gốc từ cố đô, đã từ lâu trở thành một phần không thể thiếu trong ẩm thực Hội An. Sự kết hợp giữa các nguyên liệu tự nhiên đã tạo ra những món chè độc đáo, mang đậm phong cách của miền Trung Việt Nam.',
         },
         {
           title: 'Thành phần và cách chế biến',
-          content: 'Các loại chè ở đây thường có nguyên liệu từ đậu xanh, đậu đỏ, nước cốt dừa, và nhiều loại trái cây như chuối, mít, và bột báng. Mỗi loại chè không chỉ mang hương vị riêng mà còn mang đến sự mát lành, thích hợp cho cả những ngày hè oi ả.'
+          content:
+            'Các loại chè ở đây thường có nguyên liệu từ đậu xanh, đậu đỏ, nước cốt dừa, và nhiều loại trái cây như chuối, mít, và bột báng. Mỗi loại chè không chỉ mang hương vị riêng mà còn mang đến sự mát lành, thích hợp cho cả những ngày hè oi ả.',
         },
         {
           title: 'Hương vị độc đáo',
-          content: 'Chè Hội An nổi bật với sự phong phú về hương vị và màu sắc, từ ngọt dịu của đậu cho đến vị béo ngậy của nước cốt dừa. Mỗi chén chè đều mang lại sự hài lòng cho thực khách.'
+          content:
+            'Chè Hội An nổi bật với sự phong phú về hương vị và màu sắc, từ ngọt dịu của đậu cho đến vị béo ngậy của nước cốt dừa. Mỗi chén chè đều mang lại sự hài lòng cho thực khách.',
         },
         {
           title: 'Trải nghiệm thưởng thức',
-          content: 'Khi đến Hội An, việc thưởng thức Chè Hội An tại các quán chè là một trải nghiệm không thể thiếu, giúp du khách hiểu hơn về văn hóa ẩm thực miền Trung và sự khéo léo trong việc chế biến món ăn này.'
+          content:
+            'Khi đến Hội An, việc thưởng thức Chè Hội An tại các quán chè là một trải nghiệm không thể thiếu, giúp du khách hiểu hơn về văn hóa ẩm thực miền Trung và sự khéo léo trong việc chế biến món ăn này.',
         },
       ],
     },
@@ -1127,23 +1145,28 @@ const foodData = {
       image: images.banhbeo,
       category: ECategory.FOOD,
       title: 'Bánh Bèo',
-      description: 'Bánh bèo là món ăn nhẹ phổ biến tại Hội An, với lớp bột gạo mềm mại và nhân tôm thịt đặc trưng.',
+      description:
+        'Bánh bèo là món ăn nhẹ phổ biến tại Hội An, với lớp bột gạo mềm mại và nhân tôm thịt đặc trưng.',
       body: [
         {
           title: 'Lịch sử',
-          content: 'Bánh bèo đã xuất hiện từ lâu trong ẩm thực miền Trung và đã trở thành món ăn đặc sản của Hội An. Với sự đơn giản trong nguyên liệu và cách chế biến, món ăn này thể hiện rõ nét văn hóa ẩm thực phong phú của người dân nơi đây.'
+          content:
+            'Bánh bèo đã xuất hiện từ lâu trong ẩm thực miền Trung và đã trở thành món ăn đặc sản của Hội An. Với sự đơn giản trong nguyên liệu và cách chế biến, món ăn này thể hiện rõ nét văn hóa ẩm thực phong phú của người dân nơi đây.',
         },
         {
           title: 'Thành phần và cách chế biến',
-          content: 'Bánh được làm từ bột gạo và nước, hấp chín trong các khuôn nhỏ. Khi bánh chín, người ta rắc lên trên tôm khô, hành phi và nước mắm, tạo nên hương vị hấp dẫn. Món bánh bèo thường được ăn kèm với rau sống, mang đến trải nghiệm ẩm thực thú vị.'
+          content:
+            'Bánh được làm từ bột gạo và nước, hấp chín trong các khuôn nhỏ. Khi bánh chín, người ta rắc lên trên tôm khô, hành phi và nước mắm, tạo nên hương vị hấp dẫn. Món bánh bèo thường được ăn kèm với rau sống, mang đến trải nghiệm ẩm thực thú vị.',
         },
         {
           title: 'Hương vị thơm ngon',
-          content: 'Bánh bèo có hương vị nhẹ nhàng và thanh mát, phù hợp với khẩu vị của nhiều người. Vị mặn của tôm khô hòa quyện cùng nước mắm chua ngọt tạo nên sự hấp dẫn khó cưỡng.'
+          content:
+            'Bánh bèo có hương vị nhẹ nhàng và thanh mát, phù hợp với khẩu vị của nhiều người. Vị mặn của tôm khô hòa quyện cùng nước mắm chua ngọt tạo nên sự hấp dẫn khó cưỡng.',
         },
         {
           title: 'Trải nghiệm thưởng thức',
-          content: 'Khi thưởng thức Bánh Bèo, thực khách thường cảm nhận được sự mềm mại của bánh cùng với vị tươi ngon của các nguyên liệu đi kèm, mang đến một trải nghiệm ẩm thực thú vị.'
+          content:
+            'Khi thưởng thức Bánh Bèo, thực khách thường cảm nhận được sự mềm mại của bánh cùng với vị tươi ngon của các nguyên liệu đi kèm, mang đến một trải nghiệm ẩm thực thú vị.',
         },
       ],
     },
@@ -1152,23 +1175,28 @@ const foodData = {
       image: images.suosach,
       category: ECategory.FOOD,
       title: 'Sò Sò Nướng',
-      description: 'Sò sò nướng là món ăn hải sản đặc trưng của Hội An, thường được nướng với nước mắm và gia vị thơm ngon.',
+      description:
+        'Sò sò nướng là món ăn hải sản đặc trưng của Hội An, thường được nướng với nước mắm và gia vị thơm ngon.',
       body: [
         {
           title: 'Lịch sử',
-          content: 'Món sò nướng đã trở thành một phần không thể thiếu trong ẩm thực hải sản của Hội An, thu hút nhiều thực khách. Sò sò nướng không chỉ mang lại hương vị thơm ngon mà còn thể hiện sự đa dạng trong ẩm thực hải sản địa phương.'
+          content:
+            'Món sò nướng đã trở thành một phần không thể thiếu trong ẩm thực hải sản của Hội An, thu hút nhiều thực khách. Sò sò nướng không chỉ mang lại hương vị thơm ngon mà còn thể hiện sự đa dạng trong ẩm thực hải sản địa phương.',
         },
         {
           title: 'Thành phần và cách chế biến',
-          content: 'Sò được lựa chọn tươi ngon, sau đó được nướng trên than hồng với nước mắm, tỏi, ớt và gia vị đặc trưng. Món ăn này thường được ăn kèm với rau sống và nước chấm, mang đến sự hài hòa giữa vị béo ngậy của sò và vị chua cay của gia vị.'
+          content:
+            'Sò được lựa chọn tươi ngon, sau đó được nướng trên than hồng với nước mắm, tỏi, ớt và gia vị đặc trưng. Món ăn này thường được ăn kèm với rau sống và nước chấm, mang đến sự hài hòa giữa vị béo ngậy của sò và vị chua cay của gia vị.',
         },
         {
           title: 'Hương vị đặc trưng',
-          content: 'Sò sò nướng có hương vị thơm ngon, béo ngậy, kết hợp với các loại gia vị tạo nên một món ăn hấp dẫn. Món ăn này là một sự lựa chọn tuyệt vời cho những ai yêu thích hải sản.'
+          content:
+            'Sò sò nướng có hương vị thơm ngon, béo ngậy, kết hợp với các loại gia vị tạo nên một món ăn hấp dẫn. Món ăn này là một sự lựa chọn tuyệt vời cho những ai yêu thích hải sản.',
         },
         {
           title: 'Trải nghiệm thưởng thức',
-          content: 'Khi thưởng thức Sò Sò Nướng, thực khách thường cảm nhận được độ tươi ngon và hương vị đậm đà, mang lại một trải nghiệm ẩm thực thú vị và khó quên.'
+          content:
+            'Khi thưởng thức Sò Sò Nướng, thực khách thường cảm nhận được độ tươi ngon và hương vị đậm đà, mang lại một trải nghiệm ẩm thực thú vị và khó quên.',
         },
       ],
     },
@@ -1177,23 +1205,28 @@ const foodData = {
       image: images.xoihat,
       category: ECategory.FOOD,
       title: 'Xôi Hạt',
-      description: 'Xôi hạt là món ăn sáng đặc sản tại Hội An, với hương vị đậm đà và hình thức đẹp mắt.',
+      description:
+        'Xôi hạt là món ăn sáng đặc sản tại Hội An, với hương vị đậm đà và hình thức đẹp mắt.',
       body: [
         {
           title: 'Lịch sử',
-          content: 'Xôi hạt đã có mặt từ lâu trong ẩm thực Việt Nam, đặc biệt là ở miền Trung với những biến thể khác nhau. Món ăn này không chỉ là lựa chọn ăn sáng mà còn là một phần trong các bữa tiệc truyền thống của người dân địa phương.'
+          content:
+            'Xôi hạt đã có mặt từ lâu trong ẩm thực Việt Nam, đặc biệt là ở miền Trung với những biến thể khác nhau. Món ăn này không chỉ là lựa chọn ăn sáng mà còn là một phần trong các bữa tiệc truyền thống của người dân địa phương.',
         },
         {
           title: 'Thành phần và cách chế biến',
-          content: 'Xôi được làm từ nếp, thường được kèm với thịt hoặc hải sản, và được chế biến với nhiều loại gia vị đặc trưng. Bên cạnh đó, món xôi còn được trang trí với hành phi và ruốc, tạo nên sự hấp dẫn cho thực khách.'
+          content:
+            'Xôi được làm từ nếp, thường được kèm với thịt hoặc hải sản, và được chế biến với nhiều loại gia vị đặc trưng. Bên cạnh đó, món xôi còn được trang trí với hành phi và ruốc, tạo nên sự hấp dẫn cho thực khách.',
         },
         {
           title: 'Hương vị đậm đà',
-          content: 'Xôi hạt có hương vị đậm đà, hòa quyện giữa vị ngọt của nếp và vị mặn của các loại thịt. Món ăn này mang đến sự thoải mái và ấm cúng, đặc biệt là trong những ngày lạnh.'
+          content:
+            'Xôi hạt có hương vị đậm đà, hòa quyện giữa vị ngọt của nếp và vị mặn của các loại thịt. Món ăn này mang đến sự thoải mái và ấm cúng, đặc biệt là trong những ngày lạnh.',
         },
         {
           title: 'Trải nghiệm thưởng thức',
-          content: 'Khi thưởng thức Xôi Hạt, thực khách thường được cảm nhận sự dẻo mềm của xôi, cùng với độ giòn của hành phi và vị thơm ngon của ruốc, tạo nên một trải nghiệm ẩm thực khó quên.'
+          content:
+            'Khi thưởng thức Xôi Hạt, thực khách thường được cảm nhận sự dẻo mềm của xôi, cùng với độ giòn của hành phi và vị thơm ngon của ruốc, tạo nên một trải nghiệm ẩm thực khó quên.',
         },
       ],
     },
@@ -1209,65 +1242,151 @@ export const totalData: IObjectTotalData = {
   [ECategory.HOTEL]: hotelData,
 }
 
-export const allPosts = [...placeData.list, ...foodData.list, ...craftData.list]
+export const allPosts = [
+  ...placeData.list,
+  ...foodData.list,
+  ...craftData.list,
+  ...cafeData.list,
+  ...hotelData.list,
+  ...beachData.list,
+]
 
+const planDayOne = [
+  {
+    day: 1,
+    title: 'Buổi sáng',
+    description: 'Ăn sáng - Cafe – dạo qua các hội quán',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+  {
+    day: 1,
+    title: 'Buổi chiều',
+    description: 'Ăn trưa – hóng gió biển – ăn vặt',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+  {
+    day: 1,
+    title: 'Buổi tối',
+    description: 'Dạo phố – ăn tối – thả đèn hoa đăng – đi thuyền trên sông Hoài',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+]
+
+const planDayTwo = [
+  ...planDayOne,
+  {
+    day: 2,
+    title: 'Buổi sáng',
+    description: 'Ăn sáng – Cafe – dạo qua các hội quán',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+  {
+    day: 2,
+    title: 'Buổi chiều',
+    description: 'Ăn trưa – hóng gió biển – ăn vặt',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      beachData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+  {
+    day: 2,
+    title: 'Buổi tối',
+    description: 'Dạo phố – ăn tối – thả đèn hoa đăng – đi thuyền trên sông Hoài',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+]
+
+const planDayThree = [
+  ...planDayTwo,
+  {
+    day: 3,
+    title: 'Buổi sáng',
+    description: 'Ăn sáng – Cafe – dạo qua các hội quán',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+  {
+    day: 3,
+    title: 'Buổi chiều',
+    description: 'Ăn trưa – hóng gió biển – ăn vặt',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+  {
+    day: 3,
+    title: 'Buổi tối',
+    description: 'Dạo phố – ăn tối – thả đèn hoa đăng – đi thuyền trên sông Hoài',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+]
+
+const planDayFour = [
+  ...planDayThree,
+  {
+    day: 4,
+    title: 'Buổi sáng',
+    description: 'Ăn sáng – Cafe – dạo qua các hội quán',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+  {
+    day: 4,
+    title: 'Buổi chiều',
+    description: 'Ăn trưa – hóng gió biển – ăn vặt',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+  {
+    day: 4,
+    title: 'Buổi tối',
+    description: 'Dạo phố – ăn tối – thả đèn hoa đăng – đi thuyền trên sông Hoài',
+    posts: [
+      foodData.list[Math.floor(Math.random() * foodData.list.length)],
+      cafeData.list[Math.floor(Math.random() * cafeData.list.length)],
+      placeData.list[Math.floor(Math.random() * cafeData.list.length)],
+    ],
+  },
+]
 export const tourSuggest: IObjectTour = {
-  '1': [
-    {
-      day: 1,
-      title: 'Buổi sáng',
-      description: 'Ăn sáng - Cafe – dạo qua các hội quán',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-    {
-      day: 1,
-      title: 'Buổi chiều',
-      description: 'Ăn trưa – hóng gió biển – ăn vặt',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-    {
-      day: 1,
-      title: 'Buổi tối',
-      description: 'Dạo phố – ăn tối – thả đèn hoa đăng – đi thuyền trên sông Hoài',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-  ],
-  '2': [
-    {
-      day: 1,
-      title: 'Buổi sáng',
-      description: 'Ăn sáng – Cafe – dạo qua các hội quán',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-    {
-      day: 1,
-      title: 'Buổi chiều',
-      description: 'Ăn trưa – hóng gió biển – ăn vặt',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-    {
-      day: 1,
-      title: 'Buổi tối',
-      description: 'Dạo phố – ăn tối – thả đèn hoa đăng – đi thuyền trên sông Hoài',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-    {
-      day: 2,
-      title: 'Buổi sáng',
-      description: 'Ăn sáng – Cafe – dạo qua các hội quán',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-    {
-      day: 2,
-      title: 'Buổi chiều',
-      description: 'Ăn trưa – hóng gió biển – ăn vặt',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-    {
-      day: 2,
-      title: 'Buổi tối',
-      description: 'Dạo phố – ăn tối – thả đèn hoa đăng – đi thuyền trên sông Hoài',
-      posts: [foodData.list[0], cafeData.list[0]],
-    },
-  ],
+  '1': planDayOne,
+  '2': planDayTwo,
+  '3': planDayThree,
+  '4': planDayFour,
 }

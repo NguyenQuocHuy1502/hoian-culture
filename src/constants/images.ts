@@ -1,6 +1,6 @@
 import bgSplash from '@/assets/images/cultural/bg.jpeg'
 import logo from '@/assets/images/cultural/logo.png'
-import bg from '@/assets/images/cultural/bg.png'
+import bg from '@/assets/hoi-an-bg.jpg'
 import beach from '@/assets/images/cultural/beach.png'
 import place from '@/assets/images/cultural/place.png'
 import craft from '@/assets/images/cultural/craft.png'

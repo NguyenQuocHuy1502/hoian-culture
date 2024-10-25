@@ -1,4 +1,4 @@
-import { Image, Text, TouchableOpacity, View } from 'react-native'
+import { Image, Text, TouchableHighlight, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { listMenu } from '@/data/data'
 import { router } from 'expo-router'
@@ -19,7 +19,11 @@ const Card = ({ item, size }: Props) => {
     numberOfline = 1
   }
   return (
-    <TouchableOpacity
+    <TouchableHighlight
+      style={{
+        borderRadius: 16,
+        overflow: 'hidden',
+      }}
       onPress={() =>
         router.push({
           pathname: '/detail',
@@ -30,13 +34,19 @@ const Card = ({ item, size }: Props) => {
         })
       }
     >
-      <View className="flex-row items-center space-x-3">
+      <View
+        style={{
+          backgroundColor: 'rgba(255,255,255,0.7)',
+          borderRadius: 16,
+        }}
+        className="flex-row items-center space-x-3"
+      >
         <View>
           <Image
             source={item.image}
             resizeMode="cover"
             className="rounded-xl"
-            style={{ width: imageSize, height: imageSize }}
+            style={{ width: (imageSize || 0) + 24, height: (imageSize || 0) + 24 }}
           />
         </View>
         <View className="flex-1 space-y-2">
@@ -53,7 +63,7 @@ const Card = ({ item, size }: Props) => {
           </Text>
         </View>
       </View>
-    </TouchableOpacity>
+    </TouchableHighlight>
   )
 }
 

@@ -10,7 +10,7 @@ const { width } = Dimensions.get('screen')
 const TourSuggestion = () => {
   const [isFocus, setIsFocus] = useState(false)
   const [selectedTour, setSelectedTour] = useState('1')
-  const [tourData, setTourData] = useState<ITour[]>([])
+  const [tourData, setTourData] = useState<ITour[]>(tourSuggest['1'])
   const handleSuggest = () => {
     setTourData(tourSuggest[selectedTour])
   }

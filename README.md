@@ -6,14 +6,7 @@ Explore the cosmos like never before! Our **Hoian Culture** is designed to enhan
 
 ---
 
-## 🎬 **Demo App**
-
-<div align="center">
-  <video width="400" height="300" controls>
-    <source src="https://www.w3schools.com/movie.mp4" type="video/mp4">
-    <source src="https://www.w3schools.com/movie.ogg" type="video/ogg">
-  </video>
-</div>
+## [DEMO - DRIVE](https://drive.google.com/drive/folders/1Gq_UQ7BHlZz_jRSTxfTk4AV0UqGB2PlT?usp=sharing)
 
 ---
 
@@ -61,11 +54,17 @@ Explore the rich heritage of Hội An with our **Hoian Culture App**! Discover f
 ## 📸 **Screenshots**
 
 <div align="center">
-  <img src="./assets/anh1.jpg" width="30%" alt='Screenshot 1'>
-  <img src="./assets/anh2.jpg" width="30%" alt='Screenshot 2'>
-  <img src="./assets/anh3.jpg" width="30%" alt='Screenshot 3'>
-  <img src="./assets/anh4.jpg" width="30%" alt='Screenshot 4'>
-  <img src="./assets/anh5.jpg" width="30%" alt='Screenshot 5'>
+  <img src="./assets/demo/1.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/2.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/3.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/4.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/5.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/6.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/7.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/8.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/9.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/10.png" width="30%" alt='Screenshot 1'>
+  <img src="./assets/demo/11.png" width="30%" alt='Screenshot 1'>
 </div>
 
 ---
