@@ -10,23 +10,6 @@ Explore the cosmos like never before! Our **Hoian Culture** is designed to enhan
 
 ---
 
-## 🗂 **Table of Contents**
-
-- [<img src="./assets/images/cultural/logo.png" width="4%" alt='App Logo'> Hoian Culture](#)
-  - [🎬 Demo App](#demo-app)
-  - [🗂 Table of Contents](#table-of-contents)
-  - [🌍 About](#about)
-  - [🎨 Features](#features)
-      - [🏛️ Cultural and Historical Information](#planet-information)
-      - [📅 Tour Planning Assistant](#Planetarium-quiz)
-      - [📍 Event and Location Guide](#image-puzzle-game)
-  - [📸 Screenshots](#screenshots)
-  - [⚙️ Getting Started](#getting-started)
-    - [🛠 Prerequisites](#prerequisites)
-    - [📥 Installation](#installation)
-
----
-
 ## 🌍 **About**
 
 Explore the rich heritage of Hội An with our **Hoian Culture App**! Discover fascinating informations about the city's historical sites and plan your perfect tour with tailored itineraries. This app serves as your comprehensive guide, helping you navigate the vibrant culture and traditions of this UNESCO World Heritage site. Whether you’re a curious traveler or a culture enthusiast, Hoian Culture offers an enriching experience that brings the beauty and history of Hội An to life!
